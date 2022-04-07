@@ -6,7 +6,7 @@ import { setFixedIframeUrl } from './chart_helpers';
 export function initChart(iframe) {
 
     //Iframe
-    setFixedIframeUrl('informe_perfil_mayores_2022_economia_3_1','pensiones_contributivas');
+    setFixedIframeUrl('informe_perfil_mayores_2022_economia_3_1_tabla','pensiones_contributivas');
 
     //Redes sociales > Antes tenemos que indicar cuál sería el texto a enviar
     setRRSSLinks('pensiones_contributivas');
