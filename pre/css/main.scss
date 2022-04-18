@@ -5,15 +5,20 @@
     box-sizing: border-box;
 }
 
-body, button {
+body {
     font-family: 'Montserrat', sans-serif;
 
     //Tamaño de elementos para utilizar EMs posteriormente
     font-size: 16px;
     line-height: 1.25em;
+}
 
-    //Específico en tablas
-    overflow-x: hidden;
+button {
+    font-family: 'Montserrat', sans-serif;
+
+    //Tamaño de elementos para utilizar EMs posteriormente
+    font-size: 0.85em;
+    line-height: 1.25em;
 }
 
 .container {
@@ -117,7 +122,7 @@ body, button {
 
         //Visualización
         &__viz {
-            margin-top: 12px;
+            margin-top: 8px;
 
             //Tabla
             &.viz-table {
@@ -220,7 +225,6 @@ body, button {
     width: 100%;
     max-width: calc(100% - 100px);
     min-height: 65px;
-    margin-bottom: 8px;
 
     .title {
         font-size: 1em;
@@ -375,36 +379,6 @@ body, button {
     }
 }
 
-//Tooltip
-.chart__tooltip {
-    position: absolute;
-    opacity: 0;   
-
-    width: auto;
-    max-width: 135px;
-    height: auto;
-    padding: 8px;
-    background-color: #fcfcfc;
-
-    &--title {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 12px;
-        line-height: 1.1;
-        color: #000;
-    }
-
-    &--text {
-        font-style: normal;
-        font-weight: 300;
-        font-size: 12px;
-        line-height: 1.1;
-        color: #000;
-
-        margin-top: 4px;
-    }
-}
-
 @media screen and (max-width: 575px) {
     .b-chart {
         .chart {
@@ -416,11 +390,5 @@ body, button {
 
     .b-rrss {
         width: 80%;
-    }
-}
-
-@media screen and (max-width: 475px) {
-    body {
-        font-size: 14.5px;
     }
 }
