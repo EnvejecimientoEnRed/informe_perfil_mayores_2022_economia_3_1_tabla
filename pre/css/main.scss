@@ -125,15 +125,7 @@ button {
                 }
 
                 tbody {
-                    .table__main {
-                        font-weight: 700;
-                    }
-                    .table__main:first-child td {
-                        padding-top: 0px;
-                    }
-                    .table__main:not(:first-child) td {
-                        padding-top: 16px;
-                    }
+                    font-weight: 500;
                     td {
                         padding-top: 4px;
                     }
